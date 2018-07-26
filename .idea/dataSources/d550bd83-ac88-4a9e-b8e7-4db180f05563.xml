@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="test@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.4">
+    <root id="1"/>
+    <schema id="2" parent="1" name="test">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="activiti"/>
+    <schema id="4" parent="1" name="blog"/>
+    <schema id="5" parent="1" name="busi_ismp"/>
+    <schema id="6" parent="1" name="cathy_hsj"/>
+    <schema id="7" parent="1" name="db1"/>
+    <schema id="8" parent="1" name="db2"/>
+    <schema id="9" parent="1" name="db3"/>
+    <schema id="10" parent="1" name="gzsy"/>
+    <schema id="11" parent="1" name="information_schema"/>
+    <schema id="12" parent="1" name="lmsa"/>
+    <schema id="13" parent="1" name="luntan"/>
+    <schema id="14" parent="1" name="mysql"/>
+    <schema id="15" parent="1" name="park"/>
+    <schema id="16" parent="1" name="performance_schema"/>
+    <schema id="17" parent="1" name="proxy"/>
+    <schema id="18" parent="1" name="quartz"/>
+    <schema id="19" parent="1" name="ry"/>
+    <schema id="20" parent="1" name="saga"/>
+    <schema id="21" parent="1" name="school"/>
+    <schema id="22" parent="1" name="test1"/>
+    <schema id="23" parent="1" name="xpay"/>
+    <table id="24" parent="2" name="account"/>
+    <table id="25" parent="2" name="cust"/>
+    <table id="26" parent="2" name="trade"/>
+    <table id="27" parent="2" name="user"/>
+    <column id="28" parent="24" name="acctno">
+      <Position>1</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="29" parent="24" name="custno">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="30" parent="24" name="amt">
+      <Position>3</Position>
+      <DataType>double|0</DataType>
+    </column>
+    <column id="31" parent="25" name="custno">
+      <Position>1</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="32" parent="25" name="custname">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="33" parent="25" name="custid">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="34" parent="25" name="custtype">
+      <Position>4</Position>
+      <DataType>tinyint(4)|0</DataType>
+    </column>
+    <column id="35" parent="26" name="tradid">
+      <Position>1</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="36" parent="26" name="acctno">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="37" parent="26" name="amt">
+      <Position>3</Position>
+      <DataType>double|0</DataType>
+    </column>
+    <column id="38" parent="27" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="39" parent="27" name="name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="40" parent="27" name="account">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+  </database-model>
+</dataSource>
